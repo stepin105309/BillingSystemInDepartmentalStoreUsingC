@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Implementation" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Implementation" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Implementation" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CUnit/Automated.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CUnit/Automated.h" />
+		<Unit filename="CUnit/Basic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CUnit/Basic.h" />
+		<Unit filename="CUnit/CUCurses.h" />
+		<Unit filename="CUnit/CUError.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CUnit/CUError.h" />
+		<Unit filename="CUnit/CUnit.h" />
+		<Unit filename="CUnit/Console.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CUnit/Console.h" />
+		<Unit filename="CUnit/Cunit_intl.h" />
+		<Unit filename="CUnit/Curses.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CUnit/MyMem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CUnit/MyMem.h" />
+		<Unit filename="CUnit/TestDB.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CUnit/TestDB.h" />
+		<Unit filename="CUnit/TestRun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CUnit/TestRun.h" />
+		<Unit filename="CUnit/Util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CUnit/Util.h" />
+		<Unit filename="CUnit/test_cunit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CUnit/test_cunit.h" />
+		<Unit filename="CUnit/wxWidget.h" />
+		<Unit filename="inc/Add_Product.h" />
+		<Unit filename="inc/Authenticate.h" />
+		<Unit filename="inc/Calculate_Bill.h" />
+		<Unit filename="inc/Design.h" />
+		<Unit filename="inc/Edit_Product.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Add_Product.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Authenticate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Calculate_Bill.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Design.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Edit_Product.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/test_Project.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
