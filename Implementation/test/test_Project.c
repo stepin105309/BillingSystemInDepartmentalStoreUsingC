@@ -1,11 +1,11 @@
 
 #include <Basic.h>
 #include <CUnit.h>
-#include<Calculate_Bill.h>
+#include <Calculate_Bill.h>
 
 #include <Authenticate.h>
 #include <Add_Product.h>
-#include <Edit_product.h>
+#include <Edit_Product.h>
 #define PROJECT_NAME "BillingSystemInDepartmentalStore"
 
 /* Prototypes for all the test functions */

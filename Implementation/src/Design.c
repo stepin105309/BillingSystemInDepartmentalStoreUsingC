@@ -2,9 +2,9 @@
 #include "Calculate_Bill.h"
 #include "Add_Product.h"
 #include "Edit_Product.h"
-#include<stdio.h>
-#include<stdlib.h>
-#include<windows.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <Windows.h>
 #include <ctype.h>
 COORD coord= {0,0};
 

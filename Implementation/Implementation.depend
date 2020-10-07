@@ -200,7 +200,7 @@
 
 1601867559 source:c:\users\welcome\desktop\implementation\cunit\curses.c
 
-1601824194 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\automated.c
+1602072620 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\automated.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -214,7 +214,7 @@
 	"Util.h"
 	"TestRun.h"
 	"Automated.h"
-	"CUnit_intl.h"
+	"Cunit_intl.h"
 
 1601824851 c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\cunit.h
 	<string.h>
@@ -250,7 +250,7 @@
 1601825046 c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\cunit_intl.h
 	<libintl.h>
 
-1601824301 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\basic.c
+1602072671 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\basic.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -261,13 +261,13 @@
 	"Util.h"
 	"TestRun.h"
 	"Basic.h"
-	"CUnit_intl.h"
+	"Cunit_intl.h"
 
 1601824316 c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\basic.h
 	"CUnit.h"
 	"TestDB.h"
 
-1601824469 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\console.c
+1602072679 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\console.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -278,16 +278,16 @@
 	"Util.h"
 	"TestRun.h"
 	"Console.h"
-	"CUnit_intl.h"
+	"Cunit_intl.h"
 
 1601824386 c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\console.h
 	"CUnit.h"
 	"TestDB.h"
 
-1601824593 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\cuerror.c
+1602072685 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\cuerror.c
 	<stdio.h>
 	<stdlib.h>
-	"CUnit_intl.h"
+	"Cunit_intl.h"
 	"CUError.h"
 	"test_cunit.h"
 
@@ -296,7 +296,7 @@
 
 1601867559 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\curses.c
 
-1601825147 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\mymem.c
+1602072696 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\mymem.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -306,12 +306,12 @@
 	<time.h>
 	"CUnit.h"
 	"MyMem.h"
-	"CUnit_intl.h"
+	"Cunit_intl.h"
 	"test_cunit.h"
 
 1601867608 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\test_cunit.c
 
-1601825412 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\testdb.c
+1602072705 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\testdb.c
 	<stdio.h>
 	<stdlib.h>
 	<assert.h>
@@ -322,10 +322,10 @@
 	"TestDB.h"
 	"TestRun.h"
 	"Util.h"
-	"CUnit_intl.h"
+	"Cunit_intl.h"
 	"test_cunit.h"
 
-1601825520 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\testrun.c
+1602072712 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\testrun.c
 	<stdlib.h>
 	<string.h>
 	<assert.h>
@@ -337,7 +337,7 @@
 	"TestDB.h"
 	"TestRun.h"
 	"Util.h"
-	"CUnit_intl.h"
+	"Cunit_intl.h"
 	"test_cunit.h"
 
 1601825619 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\cunit\util.c
@@ -358,8 +358,8 @@
 	"Design.h"
 	"Calculate_Bill.h"
 
-1601715831 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\src\authenticate.c
-	"authenticate.h"
+1602072466 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\src\authenticate.c
+	"Authenticate.h"
 	"Design.h"
 	<stdio.h>
 	<string.h>
@@ -370,7 +370,7 @@
 	<stdlib.h>
 	"Calculate_Bill.h"
 
-1601715814 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\src\design.c
+1602072476 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\src\design.c
 	"Design.h"
 	"Calculate_Bill.h"
 	"Add_Product.h"
@@ -380,13 +380,13 @@
 	<windows.h>
 	<ctype.h>
 
-1601959583 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\test\test_project.c
+1602072556 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\test\test_project.c
 	<Basic.h>
 	<CUnit.h>
 	<Calculate_Bill.h>
 	<Authenticate.h>
 	<Add_Product.h>
-	<Edit_product.h>
+	<Edit_Product.h>
 
 1601969406 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\src\edit_product.c
 	"Edit_Product.h"
@@ -395,9 +395,8 @@
 	<stdio.h>
 	<string.h>
 
-1601979290 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\main.c
-	<stdio.h>
-	"authenticate.h"
+1602072495 source:c:\users\welcome\desktop\billingsystemindepartmentalstore\implementation\main.c
+	"Authenticate.h"
 	"Calculate_Bill.h"
 	<string.h>
 

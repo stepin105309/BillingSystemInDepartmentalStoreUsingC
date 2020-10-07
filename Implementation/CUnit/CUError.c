@@ -37,7 +37,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "CUnit_intl.h"
+#include "Cunit_intl.h"
 #include "CUError.h"
 
 /*=================================================================

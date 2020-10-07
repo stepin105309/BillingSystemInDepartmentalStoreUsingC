@@ -62,7 +62,7 @@
 #include "Util.h"
 #include "TestRun.h"
 #include "Automated.h"
-#include "CUnit_intl.h"
+#include "Cunit_intl.h"
 
 #define MAX_FILENAME_LENGTH		1025
 

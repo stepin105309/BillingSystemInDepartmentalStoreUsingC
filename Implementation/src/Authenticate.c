@@ -1,4 +1,4 @@
-#include "authenticate.h"
+#include "Authenticate.h"
 #include "Design.h"
 #include <stdio.h>
 #include <string.h>

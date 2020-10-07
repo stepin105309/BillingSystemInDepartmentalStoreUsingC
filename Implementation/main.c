@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include "authenticate.h"
+/*#include <stdio.h>
+#include "Authenticate.h"
 #include "Calculate_Bill.h"
 #include <string.h>
 int main()
@@ -37,6 +37,6 @@ main();
 return 0;
 }
 
-
+*/
 
 

@@ -61,7 +61,7 @@
 #include "Util.h"
 #include "TestRun.h"
 #include "Console.h"
-#include "CUnit_intl.h"
+#include "Cunit_intl.h"
 
 /** Console interface status flag. */
 typedef enum

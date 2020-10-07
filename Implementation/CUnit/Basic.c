@@ -47,7 +47,7 @@
 #include "Util.h"
 #include "TestRun.h"
 #include "Basic.h"
-#include "CUnit_intl.h"
+#include "Cunit_intl.h"
 
 /*=================================================================
  *  Global/Static Definitions
