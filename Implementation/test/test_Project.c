@@ -14,7 +14,8 @@ void test_Search_Product();
 void test_Edit_Product_NotAvailble();
 void test_Edit_Product_Available();
 void test_Calculate_Bill();
-
+void test_Add_Product_NotAvailable();
+void test_Add_Product_Available();
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -26,13 +27,13 @@ int main() {
 
 
   /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "authenticate", test_authenticate);
-    CU_add_test(suite, "Search_Product_BYCode", test_Search_Product);
+
     CU_add_test(suite, "Edit_Product", test_Edit_Product_NotAvailble);
     CU_add_test(suite, "Edit_Product", test_Edit_Product_Available);
-/*  CU_add_test(suite, "Calculate Bill", test_Calculate_Bill);
-*/
-
+     CU_add_test(suite, "authenticate", test_authenticate);
+    CU_add_test(suite, "Search_Product_BYCode", test_Search_Product);
+    CU_add_test(suite, "ADD_Product", test_Add_Product_NotAvailable);
+    CU_add_test(suite, "ADD_Product", test_Add_Product_Available);
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
   CU_basic_set_mode(CU_BRM_VERBOSE);
@@ -58,17 +59,20 @@ void test_Search_Product(void) {
 
 
 void test_Edit_Product_NotAvailble(void) {
-    CU_ASSERT_STRING_EQUAL("TRY AGAIN",edit_Product());
+    CU_ASSERT(1 == check("456"));
 }
 
 void test_Edit_Product_Available(void){
-    CU_ASSERT_STRING_EQUAL("PRODUCT EDITED",edit_Product());
+    CU_ASSERT(0 == check("123"));
 }
 
+void test_Add_Product_NotAvailable(void) {
+    CU_ASSERT_STRING_EQUAL("ADDED SUCCESSFULLY",Add_Product_BYCode("145"));
+}
 
-
-
-
+void test_Add_Product_Available(void){
+    CU_ASSERT_STRING_EQUAL("ALREADY AVAILABLE",Add_Product_BYCode("123"));
+}
 
 
 

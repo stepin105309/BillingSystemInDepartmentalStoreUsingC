@@ -5,6 +5,8 @@
 #include "Calculate_Bill.h"
 static char result[]="AVAILABLE";
 static char result1[]="NOT AVAILABLE";
+static char result2[]="ADDED SUCCESSFULLY";
+static char result3[]="ALREADY AVAILABLE";
 /*function to add Product_Detailss*/
 void add ()
 {
@@ -80,8 +82,7 @@ void c_code(char y[])
 
 char* Search_Product_BYCode(char z[])
 {
-    static char *p="AVAILABLE";
-    static char *q="NOT AVAILABLE";
+
     FILE *file;
     file=fopen("Product_Details.txt","rb");
 
@@ -97,5 +98,25 @@ char* Search_Product_BYCode(char z[])
             }
         }
         return result1;
+}
+
+char* Add_Product_BYCode(char z[])
+{
+
+    FILE *file;
+    file=fopen("Product_Details.txt","rb");
+
+
+        rewind(file);
+
+        while(fread(&item,sizeof(item),1,file)==1)
+        {
+            if (strcmp(z,item.code)==0)
+            {
+
+                return result3;
+            }
+        }
+        return result2;
 
 }

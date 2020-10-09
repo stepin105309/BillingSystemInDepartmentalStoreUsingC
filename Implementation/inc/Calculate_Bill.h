@@ -32,7 +32,7 @@ void add();
 * This function used to check the product by giving the product code in the console
 * @param[in] NULL
 */
-void c_code();
+
 
 typedef struct
 {
